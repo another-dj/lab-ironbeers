@@ -1,0 +1,11 @@
+<div class="beer-list">
+
+{{#each beers}} 
+
+<div class="beer">
+ {{>beersp}}
+ <a href="/beers/{{this.id}}">Check this out!</a>
+</div>
+
+{{/each}}
+</div>
